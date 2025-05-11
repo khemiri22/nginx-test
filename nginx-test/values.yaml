@@ -13,3 +13,5 @@ service:
 
 ingress:
   enabled: false
+  
+namespace: test-deploy
