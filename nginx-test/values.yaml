@@ -1,5 +1,4 @@
 # values.yaml
-namespace: test-nginx
 replicaCount: 2
 
 image:

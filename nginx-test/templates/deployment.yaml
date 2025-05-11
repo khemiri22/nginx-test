@@ -1,8 +1,8 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ .Release.Name }}
-  namespace : {{ .Values.namespace }}
+  name: {{ .Release.Name }}-deploy
+  namespace : {{ .Release.Namespace }}
   labels:
     app: {{ .Release.Name }}
 spec:
