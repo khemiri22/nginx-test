@@ -1,13 +1,10 @@
 replicaCount: 1
-
 image:
   repository: nginx
   pullPolicy: IfNotPresent
-  tag: stable
-
+  tag: 1.2.3
 service:
   type: NodePort
   port: 80
-
 ingress:
   enabled: false
